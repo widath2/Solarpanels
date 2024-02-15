@@ -51,8 +51,9 @@ class ProductCategoryController extends Controller
      */
     public function edit(ProductCategory $productCategory)
     {
-        //
-    }
+        return view('admin.product_category.form', [
+            'user' => $productCategory,
+        ]);    }
 
     /**
      * Update the specified resource in storage.
@@ -69,7 +70,7 @@ class ProductCategoryController extends Controller
     {
         $productCategory->delete();
 
-        return redirect()->route('product-category.index');
+        return redirect()->route('product-category.index')->with('sussess','product delet ');
 
     }
 }

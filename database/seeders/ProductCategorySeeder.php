@@ -13,16 +13,15 @@ class ProductCategorySeeder extends Seeder
     public function run(): void
     {
         $vegetableCategories = array(
-            "Leafy Greens" => array("Spinach", "Kale", "Lettuce", "Swiss chard", "Collard greens"),
-            "Cruciferous Vegetables" => array("Broccoli", "Cauliflower", "Brussels sprouts", "Cabbage"),
-            "Root Vegetables" => array("Carrots", "Potatoes", "Sweet potatoes", "Beets", "Radishes"),
-            "Allium Vegetables" => array("Onions", "Garlic", "Leeks", "Shallots", "Chives"),
-            "Gourd and Squash Vegetables" => array("Zucchini", "Butternut squash", "Acorn squash", "Pumpkin", "Cucumber"),
-            "Nightshade Vegetables" => array("Tomatoes", "Bell peppers", "Eggplant"),
-            "Podded Vegetables" => array("Peas", "Green beans", "Snap peas", "Edamame"),
-            "Stalk and Stem Vegetables" => array("Asparagus", "Celery", "Rhubarb", "Bamboo shoots"),
-            "Tubers" => array("Cassava", "Yams"),
-            "Miscellaneous Vegetables" => array("Artichokes", "Avocado", "Mushrooms", "Okra"),
+            "Monocrystalline" => array("SunPower", "LG", "Panasonic", "Hanwha Q Cells", "JinkoSolar"),
+            "Polycrystalline" => array("Trina Solar", "Canadian Solar", "JA Solar", "Risen Energy", "LONGi Solar"),
+            "Thin-Film" => array("First Solar", "Solar Frontier", "Hanergy", "MiaSolé", "Uni-Solar"),
+            "Bifacial" => array("REC Group", "Vikram Solar", "Sunpreme", "Longi Solar", "Trina Solar"),
+            "Concentrated PV" => array("SolFocus", "Amonix", "Suncore Photovoltaics", "Magpower"),
+            "Building Integrated Photovoltaics (BIPV)" => array("Tesla Solar Roof", "Sunflare", "Onyx Solar", "Solaria"),
+            "Cadmium Telluride (CdTe) PV" => array("First Solar", "Abound Solar", "PrimeStar Solar"),
+            "Amorphous Silicon (a-Si) PV" => array("Sharp", "United Solar Ovonic", "Kaneka Solar Energy")
+        
         );
 
         foreach ($vegetableCategories as $categoryName => $vegetables) {
