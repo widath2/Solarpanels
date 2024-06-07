@@ -62,7 +62,8 @@ https://templatemo.com/tm-543-breezed
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="{{url('/shop')}}">Shop</a></li>
+
                             <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                             <li class="scroll-to-section"><a href="#projects">Contact Us</a></li>
                             <li class="scroll-to-section">@if (Route::has('login'))

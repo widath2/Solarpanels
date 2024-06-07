@@ -23,7 +23,8 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                         Eco Solar 
+                        <img src="\assets\images\a.png"  style="height: 100px;
+                        width: 100px">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
